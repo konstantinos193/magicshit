@@ -48,7 +48,7 @@ export default function Home() {
       </div>
 
       {/* Buy Button */}
-      <Link href="https://odin.fun" target="_blank" rel="noopener noreferrer" className="buy-button mb-8">
+      <Link href="https://odin.fun/token/2et7" target="_blank" rel="noopener noreferrer" className="buy-button mb-8">
         BUY NOW
       </Link>
 
