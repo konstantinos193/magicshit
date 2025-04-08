@@ -47,10 +47,10 @@ export default function Home() {
         <p className="text-xl font-bold">A MAGICAL WIZARD CAT BRINGING SPELLS AND POTIONS TO THE BITCOIN BLOCKCHAIN</p>
       </div>
 
-      {/* Buy Button */}
-      <Link href="https://odin.fun/token/2et7" target="_blank" rel="noopener noreferrer" className="buy-button mb-8">
+      {/* Buy Button - Disabled */}
+      <button disabled className="buy-button mb-8 opacity-50 cursor-not-allowed">
         BUY NOW
-      </Link>
+      </button>
 
       {/* Social Icons */}
       <div className="flex space-x-6 mb-8">
